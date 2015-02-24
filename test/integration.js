@@ -68,6 +68,6 @@ module.exports = function(Bookshelf) {
       require('./integration/plugins/registry')(bookshelf);
     });
 
-  });
+  }).value();
 
 };
